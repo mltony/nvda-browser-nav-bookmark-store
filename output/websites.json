@@ -1,0 +1,53 @@
+{
+    "Reddit": {
+        "website": {
+            "autoClickCategory": 5,
+            "autoClickContinuous": false,
+            "autoClickContinuousDelay": 500,
+            "autoClickOnFocus": false,
+            "autoClickOnFocusDelay": 500,
+            "autoSpeak": false,
+            "autoSpeakCategory": 9,
+            "bookmarks": [
+                {
+                    "alsoUseDefaultQuickJump": false,
+                    "attributes": [
+                        {
+                            "attribute": {
+                                "attribute": "role",
+                                "value": "BUTTON"
+                            },
+                            "invert": false
+                        }
+                    ],
+                    "autoSpeakMode": "off",
+                    "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                    "category": 8,
+                    "enableAutoSpeak": false,
+                    "enabled": true,
+                    "keystroke": null,
+                    "message": "",
+                    "name": "Hierarchical",
+                    "offset": 0,
+                    "pattern": "^Metadata for .*'s comment$",
+                    "patternMatch": 3,
+                    "snippet": "s = p.text\nm = re.search(r\"Metadata for (.*)'s comment\", s)\nif not m:\n    return False\nuserName = m.group(1)\nbegin = p.next.next\nend = begin\nfor i in range(100):\n    if end.text in [\n        'Toggle Comment Thread',\n        'Upvote',\n        'Downvote,'\n        'Reply',\n    ]:\n        break\n    try:\n        end = end.next\n    except NotFoundError:\n        end = begin\n        break\nelse:\n    end = begin\nmatch(textInfoRange(begin, end), userName, xLocation=p)",
+                    "uuid": "a068f776-af5e-419a-b342-9c377389541b",
+                    "wavFileVolume": 100
+                }
+            ],
+            "debugBeepMode": 0,
+            "description": "Website: Reddit\nSample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\nAuthor: @mltony\n\nBookmarks:\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+` or alt+shift+` to navigate comments regardless of their level. ` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\nOther hints:\n* Press 1 to jump to post title and other sections on the website.",
+            "domain": "://(www\\.)?reddit.com",
+            "focusMode": 0,
+            "liveRegionMode": 0,
+            "name": "Reddit",
+            "suppressAriaLabel": false,
+            "suppressAriaLabelEditable": false,
+            "suppressDescription": false,
+            "suppressTreeLevel": false,
+            "urlMatch": 5,
+            "version": "v2024.12.31"
+        }
+    }
+}
