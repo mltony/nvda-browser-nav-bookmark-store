@@ -1,0 +1,75 @@
+{
+    "autoClickCategory": 5,
+    "autoClickContinuous": false,
+    "autoClickContinuousDelay": 500,
+    "autoClickOnFocus": false,
+    "autoClickOnFocusDelay": 500,
+    "autoSpeak": false,
+    "autoSpeakCategory": 9,
+    "bookmarks": [
+        {
+            "alsoUseDefaultQuickJump": false,
+            "attributes": [
+                {
+                    "attribute": {
+                        "attribute": "role",
+                        "value": "LINK"
+                    },
+                    "invert": false
+                }
+            ],
+            "autoSpeakMode": "off",
+            "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+            "category": 8,
+            "enableAutoSpeak": false,
+            "enabled": true,
+            "keystroke": null,
+            "message": "",
+            "name": "Hierarchical",
+            "offset": 0,
+            "pattern": "^vote id=\\d+&how=up&",
+            "patternMatch": 3,
+            "snippet": "userPara = p.next.next\nif re.search(r\"^vote id=\\d+&how=\", userPara.text) is not None:\n    userPara = userPara.next.next\n#userName = userPara.previous.nextLink.textInfo.text\nif not userPara.text.endswith(\"[\u2013]\"):\n    return False\nuserName = userPara.text.split()[0]\n#api.ut = userPara.text\n#api.un = userName\ncommentBodyFirst = userPara.next.next\ncommentBodyLast = commentBodyFirst\nfor i in range(100):\n    if commentBodyLast.text == 'reply':\n        break\n    try:\n        commentBodyLast = commentBodyLast.next\n    except NotFoundError:\n        pass\nelse:\n    commentBodyLast = commentBodyFirst\nmatch(textInfoRange(commentBodyFirst, commentBodyLast), userName, xLocation=p)\n",
+            "uuid": "3a462752-2783-40ff-8620-f232b89acf73",
+            "wavFileVolume": 100
+        },
+        {
+            "alsoUseDefaultQuickJump": false,
+            "attributes": [
+                {
+                    "attribute": {
+                        "attribute": "role",
+                        "value": "LINK"
+                    },
+                    "invert": false
+                }
+            ],
+            "autoSpeakMode": "off",
+            "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+            "category": 1,
+            "enableAutoSpeak": false,
+            "enabled": true,
+            "keystroke": null,
+            "message": "",
+            "name": "UpVote button - matches post title and all comments",
+            "offset": 4,
+            "pattern": "^vote id=\\d+&how=up&",
+            "patternMatch": 3,
+            "snippet": "",
+            "uuid": "afde5ee3-6c43-4d5b-9200-32b7a9e45823",
+            "wavFileVolume": 100
+        }
+    ],
+    "debugBeepMode": 0,
+    "description": "Website: Hacker News post\nSample webpage: https://news.ycombinator.com/item?id=39928679\nAuthor: @mltony\n\nBookmarks:\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+` or alt+shift+` to navigate comments regardless of their level. ` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
+    "domain": "news.ycombinator.com",
+    "focusMode": 0,
+    "liveRegionMode": 0,
+    "name": "Hacker news post",
+    "suppressAriaLabel": false,
+    "suppressAriaLabelEditable": false,
+    "suppressDescription": false,
+    "suppressTreeLevel": false,
+    "urlMatch": 2,
+    "version": "v2025.1.1"
+}
