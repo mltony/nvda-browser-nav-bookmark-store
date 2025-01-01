@@ -20,9 +20,13 @@ for fileName in os.listdir(currentDir):
         'website': j,
     }
 
+
+j = {
+    'websites': websites,
+}
 f = open(outputFile, 'w', encoding='utf-8')
 try:
-    s = json.dumps(websites, indent=4, sort_keys=True)
+    s = json.dumps(j, indent=4, sort_keys=True)
     print(s, file=f)
 finally:
     f.close()
