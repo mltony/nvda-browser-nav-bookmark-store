@@ -1,5 +1,100 @@
 {
     "websites": {
+        "GitHub issues": {
+            "website": {
+                "autoClickCategory": 5,
+                "autoClickContinuous": false,
+                "autoClickContinuousDelay": 500,
+                "autoClickOnFocus": false,
+                "autoClickOnFocusDelay": 500,
+                "autoSpeak": false,
+                "autoSpeakCategory": 9,
+                "bookmarks": [
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "Issue entry",
+                        "offset": 1,
+                        "pattern": "^(Open|Closed) issue$",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "0a65ffac-9eed-4a64-96c6-5a99fca715b1",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "LINK"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "New issue",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "dcc1182a-f643-4af2-891d-243f35a9b6e6",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "LINK"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "Next page link",
+                        "offset": 0,
+                        "pattern": "Next page$",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "2fac0391-ccfc-4f41-9dcc-c7e7782dbac0",
+                        "wavFileVolume": 100
+                    }
+                ],
+                "debugBeepMode": 0,
+                "description": "Website: GitHub issues\nSample webpage: https://github.com/nvaccess/nvda/issues\nAuthor: @mltony\n\nBookmarks:\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
+                "domain": "https://github.com/\\w+/\\w+/issues",
+                "focusMode": 0,
+                "liveRegionMode": 0,
+                "name": "GitHub issues",
+                "suppressAriaLabel": false,
+                "suppressAriaLabelEditable": false,
+                "suppressDescription": false,
+                "suppressTreeLevel": false,
+                "urlMatch": 5,
+                "version": "v2025.1.1"
+            }
+        },
         "Hacker news post": {
             "website": {
                 "autoClickCategory": 5,
