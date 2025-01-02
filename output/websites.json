@@ -222,6 +222,291 @@
                 "urlMatch": 5,
                 "version": "v2024.12.31"
             }
+        },
+        "gmail": {
+            "website": {
+                "autoClickCategory": 5,
+                "autoClickContinuous": false,
+                "autoClickContinuousDelay": 500,
+                "autoClickOnFocus": false,
+                "autoClickOnFocusDelay": 500,
+                "autoSpeak": false,
+                "autoSpeakCategory": 9,
+                "bookmarks": [
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "MENUBUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": null,
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 1,
+                        "pattern": "Show details",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "16a22e9d-8a1c-401b-89d1-3a8ec7deacad",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": null,
+                        "category": 5,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "Expanded",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Expand all",
+                        "patternMatch": 2,
+                        "snippet": "",
+                        "uuid": "7f428bf5-37ad-4bbf-8996-0b7e067857d6",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": null,
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Back to Search Results",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "6213c74f-8c80-47fc-932c-c9bbf8c87ece",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": null,
+                        "category": 5,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": "alt+p",
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Older",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "340f27a6-28b8-40da-a9d9-bcbaba0c74cb",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": null,
+                        "category": 5,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": "alt+n",
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Newer",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "7c17a987-6c20-4e64-9e1f-c027d5419143",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Compose",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "021d939e-0a36-45b0-83d7-0c3b2c418c11",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Send \u202a(Ctrl-Enter)\u202c",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "72703362-7dc4-497f-839e-74e945a96845",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "\\d+ older messages?",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "b1dca0b3-6e04-4145-9343-17b18ff43683",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "Back to Inbox",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "74a0d99e-bfcd-4f28-8dcb-7283d02032eb",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "^Back to \".*\"",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "84f33cbb-f062-412a-95cb-62d56d76a68c",
+                        "wavFileVolume": 100
+                    }
+                ],
+                "debugBeepMode": 0,
+                "description": "Website: GMail\nSample webpage (login required): https://mail.google.com/mail/u/0/#inbox\nAuthor: @mltony\n\nBookmarks:\n* Press J to jump to key elements of GMail page, such as:\n    * Compose button\n    * Back to Inbox/folder/search results link\n    * Older messages collapse button - pressing it would expand all collapsed messages\n    * Each expanded message (only the first paragraph is read)\n    * Send button (when composing a reply)\n* Press Alt+J to expand all collapsed messages (if any present in current view)",
+                "domain": "mail.google.com",
+                "focusMode": 0,
+                "liveRegionMode": 0,
+                "name": "gmail",
+                "suppressAriaLabel": false,
+                "suppressAriaLabelEditable": false,
+                "suppressDescription": false,
+                "suppressTreeLevel": false,
+                "urlMatch": 2,
+                "version": "v2025.1.1"
+            }
         }
     }
 }
