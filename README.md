@@ -29,7 +29,7 @@ Bookmark store for BrowserNav QuickJump bookmarks. This repository stores curate
 #### Bookmarks
 * Press alt+1 or alt+shift+1 to read top-level comments. 
 * Press alt+digit or alt+shift+digit to read comments by their level. 
-* Press alt+`` or alt+shift+`` to navigate comments regardless of their level. `` key is typically located immediately to the left from number row 1 key and right above Tab key.
+* Press alt+\` or alt+shift+`` to navigate comments regardless of their level. `` key is typically located immediately to the left from number row 1 key and right above Tab key.
 * Press J to jump to the original post.
 
 
