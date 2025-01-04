@@ -79,7 +79,7 @@
         }
     ],
     "debugBeepMode": 0,
-    "description": "Website: GitHub issues\nSample webpage: https://github.com/nvaccess/nvda/issues\nAuthor: @mltony\n\nBookmarks:\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
+    "description": "* Website: GitHub issues\n* Sample webpage: https://github.com/nvaccess/nvda/issues\n* Author: @mltony\n\n#### Bookmarks\n\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
     "domain": "https://github.com/\\w+/\\w+/issues",
     "focusMode": 0,
     "liveRegionMode": 0,

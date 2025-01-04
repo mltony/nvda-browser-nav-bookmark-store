@@ -82,7 +82,7 @@
                     }
                 ],
                 "debugBeepMode": 0,
-                "description": "Website: GitHub issues\nSample webpage: https://github.com/nvaccess/nvda/issues\nAuthor: @mltony\n\nBookmarks:\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
+                "description": "* Website: GitHub issues\n* Sample webpage: https://github.com/nvaccess/nvda/issues\n* Author: @mltony\n\n#### Bookmarks\n\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
                 "domain": "https://github.com/\\w+/\\w+/issues",
                 "focusMode": 0,
                 "liveRegionMode": 0,
@@ -159,7 +159,7 @@
                     }
                 ],
                 "debugBeepMode": 0,
-                "description": "Website: Hacker News post\nSample webpage: https://news.ycombinator.com/item?id=39928679\nAuthor: @mltony\n\nBookmarks:\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+` or alt+shift+` to navigate comments regardless of their level. ` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
+                "description": "* Website: Hacker News post\n* Sample webpage: https://news.ycombinator.com/item?id=39928679\n* Author: @mltony\n\n#### Bookmarks\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+`` or alt+shift+`` to navigate comments regardless of their level. `` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
                 "domain": "news.ycombinator.com",
                 "focusMode": 0,
                 "liveRegionMode": 0,
@@ -210,7 +210,7 @@
                     }
                 ],
                 "debugBeepMode": 0,
-                "description": "Website: Reddit\nSample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\nAuthor: @mltony\n\nBookmarks:\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+` or alt+shift+` to navigate comments regardless of their level. ` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\nOther hints:\n* Press 1 to jump to post title and other sections on the website.",
+                "description": "* Website: Reddit\n* Sample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\n* Author: @mltony\n\n#### Bookmarks\n\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+`` or alt+shift+`` to navigate comments regardless of their level. `` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\n#### Other tips\n\n* Press 1 to jump to post title and other sections on the website.",
                 "domain": "://(www\\.)?reddit.com",
                 "focusMode": 0,
                 "liveRegionMode": 0,
@@ -495,7 +495,7 @@
                     }
                 ],
                 "debugBeepMode": 0,
-                "description": "Website: GMail\nSample webpage (login required): https://mail.google.com/mail/u/0/#inbox\nAuthor: @mltony\n\nBookmarks:\n* Press J to jump to key elements of GMail page, such as:\n    * Compose button\n    * Back to Inbox/folder/search results link\n    * Older messages collapse button - pressing it would expand all collapsed messages\n    * Each expanded message (only the first paragraph is read)\n    * Send button (when composing a reply)\n* Press Alt+J to expand all collapsed messages (if any present in current view)",
+                "description": "* Website: GMail\n* Sample webpage (login required): https://mail.google.com/mail/u/0/#inbox\n* Author: @mltony\n\n#### Bookmarks\n\n* Press J to jump to key elements of GMail page, such as:\n    * Compose button\n    * Back to Inbox/folder/search results link\n    * Older messages collapse button - pressing it would expand all collapsed messages\n    * Each expanded message (only the first paragraph is read)\n    * Send button (when composing a reply)\n* Press Alt+J to expand all collapsed messages (if any present in current view)",
                 "domain": "mail.google.com",
                 "focusMode": 0,
                 "liveRegionMode": 0,

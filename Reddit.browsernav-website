@@ -35,7 +35,7 @@
         }
     ],
     "debugBeepMode": 0,
-    "description": "Website: Reddit\nSample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\nAuthor: @mltony\n\nBookmarks:\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+` or alt+shift+` to navigate comments regardless of their level. ` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\nOther hints:\n* Press 1 to jump to post title and other sections on the website.",
+    "description": "* Website: Reddit\n* Sample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\n* Author: @mltony\n\n#### Bookmarks\n\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+`` or alt+shift+`` to navigate comments regardless of their level. `` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\n#### Other tips\n\n* Press 1 to jump to post title and other sections on the website.",
     "domain": "://(www\\.)?reddit.com",
     "focusMode": 0,
     "liveRegionMode": 0,
