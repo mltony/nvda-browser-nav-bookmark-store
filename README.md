@@ -3,6 +3,24 @@ Bookmark store for BrowserNav QuickJump bookmarks. This repository stores curate
 
 ## Available websites
 
+### GMail
+
+* Version v2025.1.1
+* Website: GMail
+* Sample webpage (login required): https://mail.google.com/mail/u/0/#inbox
+* Author: @mltony
+
+#### Bookmarks
+
+* Press J to jump to key elements of GMail page, such as:
+    * Compose button
+    * Back to Inbox/folder/search results link
+    * Older messages collapse button - pressing it would expand all collapsed messages
+    * Each expanded message (only the first paragraph is read)
+    * Send button (when composing a reply)
+* Press Alt+J to expand all collapsed messages (if any present in current view)
+
+
 ### GitHub issues
 
 * Version v2025.1.1
@@ -49,24 +67,6 @@ Bookmark store for BrowserNav QuickJump bookmarks. This repository stores curate
 #### Other tips
 
 * Press 1 to jump to post title and other sections on the website.
-
-
-### gmail
-
-* Version v2025.1.1
-* Website: GMail
-* Sample webpage (login required): https://mail.google.com/mail/u/0/#inbox
-* Author: @mltony
-
-#### Bookmarks
-
-* Press J to jump to key elements of GMail page, such as:
-    * Compose button
-    * Back to Inbox/folder/search results link
-    * Older messages collapse button - pressing it would expand all collapsed messages
-    * Each expanded message (only the first paragraph is read)
-    * Send button (when composing a reply)
-* Press Alt+J to expand all collapsed messages (if any present in current view)
 
 
 

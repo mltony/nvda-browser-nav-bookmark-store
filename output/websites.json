@@ -1,229 +1,6 @@
 {
     "websites": {
-        "GitHub issues": {
-            "website": {
-                "autoClickCategory": 5,
-                "autoClickContinuous": false,
-                "autoClickContinuousDelay": 500,
-                "autoClickOnFocus": false,
-                "autoClickOnFocusDelay": 500,
-                "autoSpeak": false,
-                "autoSpeakCategory": 9,
-                "bookmarks": [
-                    {
-                        "alsoUseDefaultQuickJump": false,
-                        "attributes": [],
-                        "autoSpeakMode": "off",
-                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
-                        "category": 1,
-                        "enableAutoSpeak": false,
-                        "enabled": true,
-                        "keystroke": null,
-                        "message": "",
-                        "name": "Issue entry",
-                        "offset": 1,
-                        "pattern": "^(Open|Closed) issue$",
-                        "patternMatch": 3,
-                        "snippet": "",
-                        "uuid": "0a65ffac-9eed-4a64-96c6-5a99fca715b1",
-                        "wavFileVolume": 100
-                    },
-                    {
-                        "alsoUseDefaultQuickJump": false,
-                        "attributes": [
-                            {
-                                "attribute": {
-                                    "attribute": "role",
-                                    "value": "LINK"
-                                },
-                                "invert": false
-                            }
-                        ],
-                        "autoSpeakMode": "off",
-                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
-                        "category": 1,
-                        "enableAutoSpeak": false,
-                        "enabled": true,
-                        "keystroke": null,
-                        "message": "",
-                        "name": "",
-                        "offset": 0,
-                        "pattern": "New issue",
-                        "patternMatch": 1,
-                        "snippet": "",
-                        "uuid": "dcc1182a-f643-4af2-891d-243f35a9b6e6",
-                        "wavFileVolume": 100
-                    },
-                    {
-                        "alsoUseDefaultQuickJump": false,
-                        "attributes": [
-                            {
-                                "attribute": {
-                                    "attribute": "role",
-                                    "value": "LINK"
-                                },
-                                "invert": false
-                            }
-                        ],
-                        "autoSpeakMode": "off",
-                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
-                        "category": 1,
-                        "enableAutoSpeak": false,
-                        "enabled": true,
-                        "keystroke": null,
-                        "message": "",
-                        "name": "Next page link",
-                        "offset": 0,
-                        "pattern": "Next page$",
-                        "patternMatch": 3,
-                        "snippet": "",
-                        "uuid": "2fac0391-ccfc-4f41-9dcc-c7e7782dbac0",
-                        "wavFileVolume": 100
-                    }
-                ],
-                "debugBeepMode": 0,
-                "description": "* Website: GitHub issues\n* Sample webpage: https://github.com/nvaccess/nvda/issues\n* Author: @mltony\n\n#### Bookmarks\n\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
-                "domain": "https://github.com/\\w+/\\w+/issues",
-                "focusMode": 0,
-                "liveRegionMode": 0,
-                "name": "GitHub issues",
-                "suppressAriaLabel": false,
-                "suppressAriaLabelEditable": false,
-                "suppressDescription": false,
-                "suppressTreeLevel": false,
-                "urlMatch": 5,
-                "version": "v2025.1.1"
-            }
-        },
-        "Hacker news post": {
-            "website": {
-                "autoClickCategory": 5,
-                "autoClickContinuous": false,
-                "autoClickContinuousDelay": 500,
-                "autoClickOnFocus": false,
-                "autoClickOnFocusDelay": 500,
-                "autoSpeak": false,
-                "autoSpeakCategory": 9,
-                "bookmarks": [
-                    {
-                        "alsoUseDefaultQuickJump": false,
-                        "attributes": [
-                            {
-                                "attribute": {
-                                    "attribute": "role",
-                                    "value": "LINK"
-                                },
-                                "invert": false
-                            }
-                        ],
-                        "autoSpeakMode": "off",
-                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
-                        "category": 8,
-                        "enableAutoSpeak": false,
-                        "enabled": true,
-                        "keystroke": null,
-                        "message": "",
-                        "name": "Hierarchical",
-                        "offset": 0,
-                        "pattern": "^vote id=\\d+&how=up&",
-                        "patternMatch": 3,
-                        "snippet": "userPara = p.next.next\nif re.search(r\"^vote id=\\d+&how=\", userPara.text) is not None:\n    userPara = userPara.next.next\n#userName = userPara.previous.nextLink.textInfo.text\nif not userPara.text.endswith(\"[\u2013]\"):\n    return False\nuserName = userPara.text.split()[0]\n#api.ut = userPara.text\n#api.un = userName\ncommentBodyFirst = userPara.next.next\ncommentBodyLast = commentBodyFirst\nfor i in range(100):\n    if commentBodyLast.text == 'reply':\n        break\n    try:\n        commentBodyLast = commentBodyLast.next\n    except NotFoundError:\n        pass\nelse:\n    commentBodyLast = commentBodyFirst\nmatch(textInfoRange(commentBodyFirst, commentBodyLast), userName, xLocation=p)\n",
-                        "uuid": "3a462752-2783-40ff-8620-f232b89acf73",
-                        "wavFileVolume": 100
-                    },
-                    {
-                        "alsoUseDefaultQuickJump": false,
-                        "attributes": [
-                            {
-                                "attribute": {
-                                    "attribute": "role",
-                                    "value": "LINK"
-                                },
-                                "invert": false
-                            }
-                        ],
-                        "autoSpeakMode": "off",
-                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
-                        "category": 1,
-                        "enableAutoSpeak": false,
-                        "enabled": true,
-                        "keystroke": null,
-                        "message": "",
-                        "name": "UpVote button - matches post title and all comments",
-                        "offset": 4,
-                        "pattern": "^vote id=\\d+&how=up&",
-                        "patternMatch": 3,
-                        "snippet": "",
-                        "uuid": "afde5ee3-6c43-4d5b-9200-32b7a9e45823",
-                        "wavFileVolume": 100
-                    }
-                ],
-                "debugBeepMode": 0,
-                "description": "* Website: Hacker News post\n* Sample webpage: https://news.ycombinator.com/item?id=39928679\n* Author: @mltony\n\n#### Bookmarks\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+\\` or alt+shift+\\` to navigate comments regardless of their level. \\` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
-                "domain": "news.ycombinator.com",
-                "focusMode": 0,
-                "liveRegionMode": 0,
-                "name": "Hacker news post",
-                "suppressAriaLabel": false,
-                "suppressAriaLabelEditable": false,
-                "suppressDescription": false,
-                "suppressTreeLevel": false,
-                "urlMatch": 2,
-                "version": "v2025.1.1"
-            }
-        },
-        "Reddit": {
-            "website": {
-                "autoClickCategory": 5,
-                "autoClickContinuous": false,
-                "autoClickContinuousDelay": 500,
-                "autoClickOnFocus": false,
-                "autoClickOnFocusDelay": 500,
-                "autoSpeak": false,
-                "autoSpeakCategory": 9,
-                "bookmarks": [
-                    {
-                        "alsoUseDefaultQuickJump": false,
-                        "attributes": [
-                            {
-                                "attribute": {
-                                    "attribute": "role",
-                                    "value": "BUTTON"
-                                },
-                                "invert": false
-                            }
-                        ],
-                        "autoSpeakMode": "off",
-                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
-                        "category": 8,
-                        "enableAutoSpeak": false,
-                        "enabled": true,
-                        "keystroke": null,
-                        "message": "",
-                        "name": "Hierarchical",
-                        "offset": 0,
-                        "pattern": "^Metadata for .*'s comment$",
-                        "patternMatch": 3,
-                        "snippet": "s = p.text\nm = re.search(r\"Metadata for (.*)'s comment\", s)\nif not m:\n    return False\nuserName = m.group(1)\nbegin = p.next.next\nend = begin\nfor i in range(100):\n    if end.text in [\n        'Toggle Comment Thread',\n        'Upvote',\n        'Downvote,'\n        'Reply',\n    ]:\n        break\n    try:\n        end = end.next\n    except NotFoundError:\n        end = begin\n        break\nelse:\n    end = begin\nmatch(textInfoRange(begin, end), userName, xLocation=p)",
-                        "uuid": "a068f776-af5e-419a-b342-9c377389541b",
-                        "wavFileVolume": 100
-                    }
-                ],
-                "debugBeepMode": 0,
-                "description": "* Website: Reddit\n* Sample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\n* Author: @mltony\n\n#### Bookmarks\n\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+\\` or alt+shift+\\` to navigate comments regardless of their level. \\` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\n#### Other tips\n\n* Press 1 to jump to post title and other sections on the website.",
-                "domain": "://(www\\.)?reddit.com",
-                "focusMode": 0,
-                "liveRegionMode": 0,
-                "name": "Reddit",
-                "suppressAriaLabel": false,
-                "suppressAriaLabelEditable": false,
-                "suppressDescription": false,
-                "suppressTreeLevel": false,
-                "urlMatch": 5,
-                "version": "v2024.12.31"
-            }
-        },
-        "gmail": {
+        "GMail": {
             "website": {
                 "autoClickCategory": 5,
                 "autoClickContinuous": false,
@@ -499,13 +276,236 @@
                 "domain": "mail.google.com",
                 "focusMode": 0,
                 "liveRegionMode": 0,
-                "name": "gmail",
+                "name": "GMail",
                 "suppressAriaLabel": false,
                 "suppressAriaLabelEditable": false,
                 "suppressDescription": false,
                 "suppressTreeLevel": false,
                 "urlMatch": 2,
                 "version": "v2025.1.1"
+            }
+        },
+        "GitHub issues": {
+            "website": {
+                "autoClickCategory": 5,
+                "autoClickContinuous": false,
+                "autoClickContinuousDelay": 500,
+                "autoClickOnFocus": false,
+                "autoClickOnFocusDelay": 500,
+                "autoSpeak": false,
+                "autoSpeakCategory": 9,
+                "bookmarks": [
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "Issue entry",
+                        "offset": 1,
+                        "pattern": "^(Open|Closed) issue$",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "0a65ffac-9eed-4a64-96c6-5a99fca715b1",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "LINK"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "",
+                        "offset": 0,
+                        "pattern": "New issue",
+                        "patternMatch": 1,
+                        "snippet": "",
+                        "uuid": "dcc1182a-f643-4af2-891d-243f35a9b6e6",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "LINK"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "Next page link",
+                        "offset": 0,
+                        "pattern": "Next page$",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "2fac0391-ccfc-4f41-9dcc-c7e7782dbac0",
+                        "wavFileVolume": 100
+                    }
+                ],
+                "debugBeepMode": 0,
+                "description": "* Website: GitHub issues\n* Sample webpage: https://github.com/nvaccess/nvda/issues\n* Author: @mltony\n\n#### Bookmarks\n\n* Press J to navigate between page elements:\n    * \"New issue\" link\n    * Issue entries on current page\n    * \"Next page\" link\n",
+                "domain": "https://github.com/\\w+/\\w+/issues",
+                "focusMode": 0,
+                "liveRegionMode": 0,
+                "name": "GitHub issues",
+                "suppressAriaLabel": false,
+                "suppressAriaLabelEditable": false,
+                "suppressDescription": false,
+                "suppressTreeLevel": false,
+                "urlMatch": 5,
+                "version": "v2025.1.1"
+            }
+        },
+        "Hacker news post": {
+            "website": {
+                "autoClickCategory": 5,
+                "autoClickContinuous": false,
+                "autoClickContinuousDelay": 500,
+                "autoClickOnFocus": false,
+                "autoClickOnFocusDelay": 500,
+                "autoSpeak": false,
+                "autoSpeakCategory": 9,
+                "bookmarks": [
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "LINK"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 8,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "Hierarchical",
+                        "offset": 0,
+                        "pattern": "^vote id=\\d+&how=up&",
+                        "patternMatch": 3,
+                        "snippet": "userPara = p.next.next\nif re.search(r\"^vote id=\\d+&how=\", userPara.text) is not None:\n    userPara = userPara.next.next\n#userName = userPara.previous.nextLink.textInfo.text\nif not userPara.text.endswith(\"[\u2013]\"):\n    return False\nuserName = userPara.text.split()[0]\n#api.ut = userPara.text\n#api.un = userName\ncommentBodyFirst = userPara.next.next\ncommentBodyLast = commentBodyFirst\nfor i in range(100):\n    if commentBodyLast.text == 'reply':\n        break\n    try:\n        commentBodyLast = commentBodyLast.next\n    except NotFoundError:\n        pass\nelse:\n    commentBodyLast = commentBodyFirst\nmatch(textInfoRange(commentBodyFirst, commentBodyLast), userName, xLocation=p)\n",
+                        "uuid": "3a462752-2783-40ff-8620-f232b89acf73",
+                        "wavFileVolume": 100
+                    },
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "LINK"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 1,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "UpVote button - matches post title and all comments",
+                        "offset": 4,
+                        "pattern": "^vote id=\\d+&how=up&",
+                        "patternMatch": 3,
+                        "snippet": "",
+                        "uuid": "afde5ee3-6c43-4d5b-9200-32b7a9e45823",
+                        "wavFileVolume": 100
+                    }
+                ],
+                "debugBeepMode": 0,
+                "description": "* Website: Hacker News post\n* Sample webpage: https://news.ycombinator.com/item?id=39928679\n* Author: @mltony\n\n#### Bookmarks\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+\\` or alt+shift+\\` to navigate comments regardless of their level. \\` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
+                "domain": "news.ycombinator.com",
+                "focusMode": 0,
+                "liveRegionMode": 0,
+                "name": "Hacker news post",
+                "suppressAriaLabel": false,
+                "suppressAriaLabelEditable": false,
+                "suppressDescription": false,
+                "suppressTreeLevel": false,
+                "urlMatch": 2,
+                "version": "v2025.1.1"
+            }
+        },
+        "Reddit": {
+            "website": {
+                "autoClickCategory": 5,
+                "autoClickContinuous": false,
+                "autoClickContinuousDelay": 500,
+                "autoClickOnFocus": false,
+                "autoClickOnFocusDelay": 500,
+                "autoSpeak": false,
+                "autoSpeakCategory": 9,
+                "bookmarks": [
+                    {
+                        "alsoUseDefaultQuickJump": false,
+                        "attributes": [
+                            {
+                                "attribute": {
+                                    "attribute": "role",
+                                    "value": "BUTTON"
+                                },
+                                "invert": false
+                            }
+                        ],
+                        "autoSpeakMode": "off",
+                        "builtInWavFile": "ringtones\\wubbalubbadubdub.wav",
+                        "category": 8,
+                        "enableAutoSpeak": false,
+                        "enabled": true,
+                        "keystroke": null,
+                        "message": "",
+                        "name": "Hierarchical",
+                        "offset": 0,
+                        "pattern": "^Metadata for .*'s comment$",
+                        "patternMatch": 3,
+                        "snippet": "s = p.text\nm = re.search(r\"Metadata for (.*)'s comment\", s)\nif not m:\n    return False\nuserName = m.group(1)\nbegin = p.next.next\nend = begin\nfor i in range(100):\n    if end.text in [\n        'Toggle Comment Thread',\n        'Upvote',\n        'Downvote,'\n        'Reply',\n    ]:\n        break\n    try:\n        end = end.next\n    except NotFoundError:\n        end = begin\n        break\nelse:\n    end = begin\nmatch(textInfoRange(begin, end), userName, xLocation=p)",
+                        "uuid": "a068f776-af5e-419a-b342-9c377389541b",
+                        "wavFileVolume": 100
+                    }
+                ],
+                "debugBeepMode": 0,
+                "description": "* Website: Reddit\n* Sample webpage: https://www.reddit.com/r/Blind/comments/1hp3nsg/accessible_vision_board/\n* Author: @mltony\n\n#### Bookmarks\n\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+\\` or alt+shift+\\` to navigate comments regardless of their level. \\` key is typically located immediately to the left from number row 1 key and right above Tab key.\n\n#### Other tips\n\n* Press 1 to jump to post title and other sections on the website.",
+                "domain": "://(www\\.)?reddit.com",
+                "focusMode": 0,
+                "liveRegionMode": 0,
+                "name": "Reddit",
+                "suppressAriaLabel": false,
+                "suppressAriaLabelEditable": false,
+                "suppressDescription": false,
+                "suppressTreeLevel": false,
+                "urlMatch": 5,
+                "version": "v2024.12.31"
             }
         }
     }
