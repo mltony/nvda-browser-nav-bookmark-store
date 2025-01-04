@@ -1,5 +1,5 @@
-# nvda-browser-nav-bookmark-store
-Bookmark store for BrowserNav QuickJump bookmarks. This repository stores curated BrowserNav website definitions with bookmarks and is programmatically accessed by BrowserNav add-on.
+# Bookmark store for BrowserNav QuickJump bookmarks.
+Bookmarks mark specific locations on websites and allow NVDA users to easily navigate between them. Please install BrowserNav add-on from NVDA add-on store in order to install any of these bookmarks.
 
 ## Available websites
 
