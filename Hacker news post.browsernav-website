@@ -61,7 +61,7 @@
         }
     ],
     "debugBeepMode": 0,
-    "description": "* Website: Hacker News post\n* Sample webpage: https://news.ycombinator.com/item?id=39928679\n* Author: @mltony\n\n#### Bookmarks\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+`` or alt+shift+`` to navigate comments regardless of their level. `` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
+    "description": "* Website: Hacker News post\n* Sample webpage: https://news.ycombinator.com/item?id=39928679\n* Author: @mltony\n\n#### Bookmarks\n* Press alt+1 or alt+shift+1 to read top-level comments. \n* Press alt+digit or alt+shift+digit to read comments by their level. \n* Press alt+\\` or alt+shift+\\` to navigate comments regardless of their level. \\` key is typically located immediately to the left from number row 1 key and right above Tab key.\n* Press J to jump to the original post.",
     "domain": "news.ycombinator.com",
     "focusMode": 0,
     "liveRegionMode": 0,
